@@ -1,0 +1,11 @@
+# environments
+.venv/
+.venv-vllm/
+__pycache__/
+*.pyc
+
+# generated: data (jsonl, frames), adapters, evaluation results, videos; most of out/ links to /data001
+out/
+logs/
+*.mp4
+*.safetensors
